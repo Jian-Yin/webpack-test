@@ -1,0 +1,9 @@
+@mixin font-under-12($size:11, $direction-left:false) {
+	font-size: $size+px;
+	-webkit-transform: scale($size/12, $size/12);
+	-moz-transform: scale(1);
+
+	@if $direction-left == true {
+		-webkit-transform-origin-x: 0;
+	}
+}

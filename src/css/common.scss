@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import "commom/variables.scss";
+@import "commom/utilities.scss";
+
+html,body {
+	color: $color-333333;
+	font-family: $fonts-common-suffix;
+}
+input,textarea{
+	font-family: $fonts-common-suffix;
+}
+ul,ol {
+	list-style: none;
+}
+p {
+	margin: 0;
+}
+div,p,span,i,ul,li,dl,dt,dd {
+	word-break: normal;
+}
+img {
+  	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	word-break: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}

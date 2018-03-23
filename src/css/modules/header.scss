@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "commom/variables.scss";
+@import "commom/utilities.scss";
+
+.header{
+	height: 200px;
+	background: $color-dc1f34;
+}
+
+@media screen and (max-width:$screen-sm-max){
+}
+
+@media screen and (max-width:$screen-xs-max){
+}
