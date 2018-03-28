@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import "commom/variables.scss";
-@import "commom/utilities.scss";
+@import "common/variables.scss";
+@import "common/utilities.scss";
 
 .container{
 	height: 300px;
-	color: $color-cccccc;
-	line-height: 300px;
+	text-align: center;
+	line-height: 50px;
 }

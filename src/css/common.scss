@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
-@import "commom/variables.scss";
-@import "commom/utilities.scss";
+@import "common/variables.scss";
+@import "common/utilities.scss";
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 html,body {
 	color: $color-333333;
 	font-family: $fonts-common-suffix;
@@ -12,9 +17,6 @@ input,textarea{
 }
 ul,ol {
 	list-style: none;
-}
-p {
-	margin: 0;
 }
 div,p,span,i,ul,li,dl,dt,dd {
 	word-break: normal;

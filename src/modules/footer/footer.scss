@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import "../../css/common/variables.scss";
+@import "../../css/common/utilities.scss";
+
+.footer{
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+	background: $color-000000;
+}
